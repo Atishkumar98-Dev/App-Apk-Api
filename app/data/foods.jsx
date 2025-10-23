@@ -1,7 +1,7 @@
 // api/food.js
 // http://127.0.0.1:8005/api/foodlist/
-const Main_url = "http://192.168.0.130:8000/"
-const BASE_URL = "http://192.168.0.130:8000/api/foodlist/"; // 🔹 replace with your backend or mock API
+const Main_url = "http://127.0.0.1:8005/"
+const BASE_URL = "http://127.0.0.1:8005/api/foodlist/"; // 🔹 replace with your backend or mock API
 
 // Fetch all food items
 export async function getFoods() {
